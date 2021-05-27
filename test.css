@@ -1,0 +1,67 @@
+/* 0 shared >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+:root {
+    /*   color variables */
+    --clr-primary: #6aeeb5;
+    --clr-primary-hover: #29e6a7;
+    --clr-primary-dark: #039d69;
+    --clr-gray100: #f0f7f8;
+    --clr-gray200: #cfd8dc;
+
+    /*   border radius */
+    --radius: 0.2rem;
+}
+
+
+body {
+    font-family: 'Metrophobic', sans-serif;
+    font-size: 20px;
+    background: var(--clr-gray100);
+}
+
+.container {  
+    display: grid;  
+    grid-template-columns: 100px 100px 100px;  
+    grid-template-rows: 50px 50px;  
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* 0 shared >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+/* 1 navbar >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.nav-list {
+    background: white;
+    box-shadow: 0px 0px 10px var(--clr-gray200);
+    padding: 1rem 0;
+    border-radius: var(--radius);
+    margin: 0;
+}
+
+.nav-item {
+    list-style: none;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: black;
+    transition: all 200ms ease-in;
+}
+
+.nav-item a:hover {
+    color: var(--clr-primary-dark);
+}
+/* 1 navbar >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+/* 2 panel >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.panel {
+    min-height: 90vh;
+}
+
+/* 2 panel >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
