@@ -25,7 +25,18 @@ const data =
             description:"Coronavirus Information Centre is a one-stop website for your all covid related information",
             image:"https://res.cloudinary.com/farsbein01/image/upload/v1622076692/covid-info-center.000webhostapp.com_index.html_Max_j9nq42.png",
         }
-    ]
+    ],
+    aboutMe: {
+        name: "Fars Bein",
+        headline: "Hey, I’m Fars - A Computer Science Student from Toronto, Canada.",
+        description: "I’ve worked on several projects that have purpose and aims to help people which I take pride in, many of which are websites you can visit online. Currently interning in Ontario Public Service and working on a recent personal project I picked up (a personal website builder)",
+        email: "fars.bein@ryerson.ca"
+    },
+    links: {
+        GitHub: "https://github.com/FarsBein",
+        LinkedIn: "https://www.linkedin.com/in/fars-bein/",
+        Resume: "https://res.cloudinary.com/farsbein01/image/upload/v1621907513/FarsBein_Resume_zewtkd.pdf"
+    }
 }
 
 
